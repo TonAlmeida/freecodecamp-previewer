@@ -1,0 +1,91 @@
+html{
+    text-align: center;
+    padding-top: 25px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(6, 160, 171);
+}
+.title{
+    color: white;
+    margin: 30px;
+}
+.footer{
+    color: white;
+}
+.containerTexts{
+    display: flex;
+    justify-content: center;
+}
+.containerPreviewer{
+    margin: 10px;
+}
+.preview{
+    width: 40vw;
+    padding: 10px;
+    min-height: 700px;
+    text-align: left;
+    
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: rgb(227, 224, 224);
+    color: rgb(96, 96, 96);
+    overflow: hidden;
+}
+.containerEditor{
+    margin: 10px;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+}
+.editor{
+    padding: 10px;
+    max-width: 500px;
+    width: 40vw;
+    height: 250px;
+
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: rgb(21, 24, 24);
+    color: white;
+    outline: none;
+
+}
+.containerButtons{
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.clearButton, .copyButton{
+    padding: 5px 20px;
+    margin: 10px;
+
+    background-color: rgb(232, 251, 251);
+    color: rgb(6, 160, 171);
+    border: 5px solid black;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+.clearButton:hover, .copyButton:hover{
+    background-color: rgb(6, 160, 171);
+    color: white;
+    border: 5px solid white;
+}
+.copyButton:active, .clearButton:active{
+    color: black;
+    background-color: green;
+    border-color: greenyellow
+}
+.preview code {
+    display: block;
+    overflow: auto;
+    background: white;
+    padding: 5px;
+    line-height: 1.2;
+}
+.preview img{
+    max-width: 100%;
+    max-height: 100%;
+}
